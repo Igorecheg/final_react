@@ -1,0 +1,58 @@
+.tooltip-container {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    
+}
+
+.tooltip {
+
+    text-wrap: auto;
+    position: absolute;
+    background-color: royalblue;
+    color: #fff; 
+    font-weight: 300;
+    padding: 0.5em 1em;
+    border-radius: 10px; 
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    font-family: "Inter";
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.tooltip--top {
+    text-wrap: auto;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: auto;
+}
+
+.tooltip--bottom {
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip--left {
+    right: 120%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tooltip--right {
+    left: 120%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+

@@ -1,0 +1,31 @@
+.accordion {
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    font-family: 'Inter'; 
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.accordion-title {
+    font-size: 1.1rem; 
+    font-weight: 600; 
+    margin: 0;
+}
+
+.accordion-icon {
+    font-size: 1.2rem; 
+    font-weight: bold;
+}
+
+.accordion-content {
+    padding: 1rem;
+    font-size: 0.95rem; 
+    line-height: 1.6;
+}

@@ -1,0 +1,17 @@
+.typo--sm {
+    font-size: 0.875rem;
+    text-indent: 20px;
+    font-family: 'Inter';
+  }
+  
+  .typo--md {
+    font-size: 1rem;
+    text-indent: 20px;   
+    font-family: 'Inter';
+  }
+  
+  .typo--lg {
+    font-size: 1.25rem;
+    text-indent: 20px;     
+    font-family: 'Inter';
+  } 
